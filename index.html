@@ -6,91 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    
     <title>Document</title>
 </head>
 
 <body>
     <header class="header">
-        <nav class="Logo">Weartake</nav>
-        <nav class="navMenu">
+         
+            <div class="Logo">Weartake</div>
             <ul class="menu">
-                <li><a href="#">Todos</a></li>
-                <li><a href="#">Acessórios</a></li>
-                <li><a href="#">Calçados</a></li>
-                <li><a href="#">Camisas</a></li>
-            </ul>
-        </nav>
+                <li class="li-todos"><a href="#">Todos</a></li>
+                <li class="li-menu" ><a href="#">Acessórios</a></li>
+                <li class="li-menu" ><a href="#">Calçados</a></li>
+                <li class="li-menu" ><a href="#">Camisas</a></li>
+            </ul> 
+         
     </header>
 
     <main class="vitrine">
-        <article class="card">
-            <img src="imagens/camiseta01.JPEG" alt="camiseta" class="img">
-            <h3 class="categoria">Camisas</h3>
-            <h2 class="titulo">Camisa preta básica</h2>
-            <p class="descricao">Camiseta 100% algodão
-                Tecido leve e de alta durabilidade
-                Fio 30 penteado
-                Gola com costura reforçada</p>
-            <p class="preco">R$ 60,00</p>
-            <a class="addCarrinho" href="">Adicionar ao carrinho</a>
-        </article>
-
-        <article class="card">
-            <img src="imagens/saoJoseDosPinholas.jpeg" alt="camiseta02" class="img">
-            <h3 class="categoria">Camisas</h3>
-            <h2 class="titulo">Camisa temática</h2>
-            <p class="descricao">Camiseta 100% algodão
-                Tecido leve e de alta durabilidade
-                Fio 30 penteado
-                Gola com costura reforçada</p>
-            <p class="preco">R$ 25,00</p>
-            <a class="addCarrinho" href="">Adicionar ao carrinho</a>
-        </article>
-
-        <article class="card">
-            <img src="imagens/chapeus.jpg" alt="Acessórios" class="img">
-            <h3 class="categoria">Acessórios</h3>
-            <h2 class="titulo">Kit praia</h2>
-            <p class="descricao">Todos os nossos produtos são verificados antes de serem enviados aos correios, 100 %
-                dos clientes satisfeitos.</p>
-            <p class="preco">R$ 180,00</p>
-            <a class="addCarrinho" href="">Adicionar ao carrinho</a>
-        </article>
-
-        <article class="card">
-            <img src="imagens/tenis01.jpg" alt="" class="img">
-            <h3 class="categoria">Calçados</h3>
-            <h2 class="titulo">All Stars</h2>
-            <p class="descricao">Todos os nossos produtos são verificados antes de serem enviados aos correios, 100 %
-                dos clientes satisfeitos.</p>
-            <p class="preco">R$ 150,00</p>
-            <a class="addCarrinho" href="">Adicionar ao carrinho</a>
-        </article>
-
-        <article class="card">
-            <img src="imagens/white.jpg" alt="" class="img">
-            <h3 class="categoria">Camisas</h3>
-            <h2 class="titulo">Camisa branca básica</h2>
-            <p class="descricao">Camiseta 100% algodão
-                Tecido leve e de alta durabilidade
-                Fio 30 penteado
-                Gola com costura reforçada</p>
-            <p class="preco">R$ 35,00</p>
-            <a class="addCarrinho" href="">Adicionar ao carrinho</a>
-        </article>
-
-        <article class="card">
-            <img src="imagens/brincos.jpg" alt="" class="img">
-            <h3 class="categoria">Acessórios</h3>
-            <h2 class="titulo">Brincos</h2>
-            <p class="descricao">Todos os nossos produtos são verificados antes de serem enviados aos correios, 100 %
-                dos clientes satisfeitos.</p>
-            <p class="preco">R$ 200,00</p>
-            <a class="addCarrinho" href="">Adicionar ao carrinho</a>
-        </article>
-
-
-
+     
     </main>
     <aside class="aside">
         <form action="">
@@ -99,59 +33,20 @@
         </form>
 
         <h2 class="h2Carrinho">Carrinho de compras</h2>
-        <div class="carrinhoDeCompras">
+        <div class="carrinhoDeCompras" >
             <div>
-                <div class="divInformacao">
-                    <img src="imagens/camiseta01.JPEG" alt="" class="imgSmall">
-                    <div class="divInterna">
-                        <h3 class="titulo">Camisa preta básica</h3>
-                        <p class="preco">R$ 60,00</p>
-                        <a class="removCarrinho" href=""> Remover item</a>
-                    </div>
-                </div>
-            </div>
 
-            <div>
-                <div class="divInformacao">
-                    <img src="imagens/chapeus.jpg" alt="" class="imgSmall">
-                    <div class="divInterna">
-                        <h3 class="titulo">Kit praia</h3>
-                        <p class="preco">R$ 180,00</p>
-                        <a class="removCarrinho" href=""> Remover item</a>
-                    </div>
-                </div>
-            </div>
+                <p class="carVazio" >Carrinho vazio <span> <img src="imagens/carrinho.svg" class="imgCarrinho"> </span></p>
+                
 
-            <div>
-                <div class="divInformacao">
-                    <img src="imagens/tenis01.jpg" alt="" class="imgSmall">
-                    <div class="divInterna">
-                        <h3 class="titulo">All Stars</h3>
-                        <p class="preco">R$ 150,00</p>
-                        <a class="removCarrinho" href=""> Remover item</a>
-                    </div>
-                </div>
-            </div>
-
-
+            </div>              
         </div>
-        <div class="resultCarrinho">
-            <div class="divTotalProd">
-                <form action="" class="formQuantidade">
-                    <p>Quantidade:</p>
-                    <p class="qtdProd">3</p>
-
-                </form>
-                <form action="" class="formQuantidade">
-                    <p>Total:</p>
-                    <p class="totalProd">R$ 390,00</p>
-                </form>
-            </div>
-        </div>
+       
     </aside>
 
 
-    <script src="script.js"></script>
+<script src="script.js"></script>
+
 </body>
 
 </html>

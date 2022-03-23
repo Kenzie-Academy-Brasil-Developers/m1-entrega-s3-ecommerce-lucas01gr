@@ -11,17 +11,10 @@ body{
     font-family: 'Inter', sans-serif;
     
 }
-header nav{
+header div{
     margin-left: 118px;
     font-size: 44px;
     font-weight: bold;
-
-}
-.navMenu{
-    display: flex;
-    margin-right: 117px;
-    align-items: center;
-    margin-right: 0px;
 }
 .menu li, a{
     font-weight: 600;
@@ -74,7 +67,7 @@ li{
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    width: 196px;
+    width: 230px;
     margin: 8px;
       
     gap: 10px;
@@ -137,7 +130,6 @@ li{
 
 .aside{
     
-   
     margin-left: 0px;
     height: 344px;
 }
@@ -154,8 +146,19 @@ li{
 }
 .carrinhoDeCompras{
     max-height: max-content;
+    /* height: 200px; */
     width: 344px;
     background-color:#F5F5F5 ;
+    display: flex;
+    align-items: center; 
+}
+.carVazio{
+    font-size: 20px;
+    line-height: 16px;
+}
+.imgCarrinho{
+    flex-direction: column;
+    justify-content: center;
 }
 
 aside h2 {
@@ -217,13 +220,16 @@ aside button {
 .imgSmall{
     height: 80px;
     width: 80px;
-    margin: 0px;
-    
+    margin: 0px;    
 }
 .divInformacao{
     display: flex;
     padding-bottom: 5px;
 }
+.divInformacao h3{
+    font-size: 13px;
+}
+
 .removCarrinho{
     font-weight: 500;
     font-size: 14px;
