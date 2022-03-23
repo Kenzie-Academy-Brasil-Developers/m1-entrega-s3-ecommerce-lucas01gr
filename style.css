@@ -7,14 +7,21 @@
 body{
     display: flex;
     flex-wrap: wrap;
-    width:1603px;
+    width:1403px;
     font-family: 'Inter', sans-serif;
     
 }
-header div{
+header nav{
     margin-left: 118px;
     font-size: 44px;
     font-weight: bold;
+
+}
+.navMenu{
+    display: flex;
+    margin-right: 117px;
+    align-items: center;
+    margin-right: 0px;
 }
 .menu li, a{
     font-weight: 600;
@@ -29,7 +36,7 @@ header div{
 .header{
     display: flex;
     height: 70px;
-    width: 1603px;
+    width: 1403px;
     align-content: center;    
     flex-wrap: wrap;
     background-color: #F5F5F5;
@@ -51,7 +58,7 @@ li{
   
 .vitrine{
     display:flex;
-    width: 966px;
+    width: 766px;
   
     flex-wrap: wrap;
     margin-left: 119px;
@@ -67,9 +74,10 @@ li{
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    width: 296px;
+    width: 196px;
+    margin: 8px;
       
-    gap: 15px;
+    gap: 10px;
     padding: 15px;
     transition: 0.7s;
     border: 1px solid rgba(163, 161, 161, 0.37);
@@ -131,17 +139,17 @@ li{
     
    
     margin-left: 0px;
-    height: 444px;
+    height: 344px;
 }
 .input{
-    height: 50px;
-    width: 246px;
+    height: 40px;
+    width: 146px;
     margin-right: 8px;
     margin-bottom: 10px;
 
 }
 .botaoPesquisa{
-    height: 50px;
+    height: 40px;
     width: 96px;
 }
 .carrinhoDeCompras{
@@ -159,7 +167,7 @@ aside h2 {
     background-color: #6B54DE;
     color: #FFFFFF ;
     
-    height: 50px;
+    height: 40px;
     
 }
 .input{
